@@ -6,6 +6,22 @@ public class Livro {
 	private String id;
 	private String title;
 	private String body;
+	
+	public void setUserdId(String userdId) {
+		this.userdId = userdId;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public void setBody(String body) {
+		this.body = body;
+	}
 
 	public String getUserdId() {
 		return userdId;

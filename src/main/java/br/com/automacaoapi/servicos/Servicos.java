@@ -12,13 +12,13 @@ public class Servicos implements ServicosImpl {
 		return new Resposta(resposta);
 	}
 
-	public Resposta postEndPoint(String endPoint) {
-		resposta = given().when().log().all().post(endPoint);
+	public Resposta postEndPoint(String endPoint, Object mensagem) {
+		resposta = given().contentType("application/json").body(mensagem).when().log().all().post(endPoint);
 		return new Resposta(resposta);
 	}
 
-	public Resposta putEndPoint(String endPoint) {
-		resposta = given().when().log().all().put(endPoint);
+	public Resposta putEndPoint(String endPoint, Object mensagem) {
+		resposta = given().contentType("application/json").body(mensagem).when().log().all().put(endPoint);
 		return new Resposta(resposta);
 	}
 
