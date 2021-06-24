@@ -1,0 +1,8 @@
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/pojos/Livro.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/servicos/Resposta.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/steps/CriarLivroSteps.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/steps/BuscarLivroSteps.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/servicos/Servicos.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/servicos/ServicosImpl.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/steps/AlterarLivroSteps.java
+/home/bruno/eclipse-workspace/automacao-api-java/src/main/java/br/com/automacaoapi/steps/DeletarLivroSteps.java

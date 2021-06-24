@@ -3,13 +3,14 @@ package br.com.automacaoapi.steps;
 import com.google.gson.Gson;
 import br.com.automacaoapi.pojos.Livro;
 import br.com.automacaoapi.servicos.Servicos;
+import br.com.automacaoapi.servicos.ServicosImpl;
 import cucumber.api.java.pt.Dado;
 
 public class CriarLivroSteps {
 
 	Gson gson = new Gson();
 	Livro livro = new Livro();
-	Servicos verbos = new Servicos();
+	ServicosImpl verbos = new ServicosImpl();
 
 	@Dado("^que eu realize uma requisicao na API para criar o livro  \"([^\"]*)\"  \"([^\"]*)\"  \"([^\"]*)\"  \"([^\"]*)\"$")
 	public void que_eu_realize_uma_requisicao_na_API_para_criar_o_livro(String userId, String id, String title,String body) throws Throwable {

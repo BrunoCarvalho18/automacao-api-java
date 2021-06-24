@@ -1,13 +1,13 @@
 package br.com.automacaoapi.steps;
 
 import br.com.automacaoapi.servicos.Resposta;
-import br.com.automacaoapi.servicos.Servicos;
+import br.com.automacaoapi.servicos.ServicosImpl;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 
 public class BuscarLivroSteps {
 
-	public Servicos verbos = new Servicos();
+	ServicosImpl verbos = new ServicosImpl();
 	public Resposta assercao = new Resposta();
 
 	@Dado("^que eu realize uma requisicao na API para buscar o livro com \"([^\"]*)\"$")

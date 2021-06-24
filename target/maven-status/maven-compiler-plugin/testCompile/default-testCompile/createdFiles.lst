@@ -1,0 +1,8 @@
+br/com/automacaoapi/pojos/Livro.class
+br/com/automacaoapi/servicos/Resposta.class
+br/com/automacaoapi/steps/AlterarLivroSteps.class
+br/com/automacaoapi/servicos/Servicos.class
+br/com/automacaoapi/steps/DeletarLivroSteps.class
+br/com/automacaoapi/servicos/ServicosImpl.class
+br/com/automacaoapi/steps/CriarLivroSteps.class
+br/com/automacaoapi/steps/BuscarLivroSteps.class
