@@ -3,7 +3,7 @@ package br.com.automacaoapi.servicos;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
-public class Servicos implements ServicosImpl {
+public class ServicosImpl implements ServicosI {
 
 	private Response resposta;
 
