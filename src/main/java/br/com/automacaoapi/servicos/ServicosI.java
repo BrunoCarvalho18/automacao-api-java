@@ -1,6 +1,6 @@
 package br.com.automacaoapi.servicos;
 
-public interface ServicosImpl {
+public interface Servicos {
 
     Resposta getEndPoint(String endPoint);
     Resposta postEndPoint(String endPoint, Object mensagem);
